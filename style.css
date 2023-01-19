@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+      
+}
+.header{
+    background-color: #333333;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+.header i{
+    font-size: 2rem;
+    margin-top: 0.4rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+.listitem{
+    display: flex;
+    padding: 0.7rem 0 0.3rem 0.8rem;
+
+}
+.listitem a:hover{
+    background-color: black;
+    color: white;
+    padding: 0.7rem 0.2rem 0.3rem 0.2rem;
+
+}
+.listitem li{
+    padding:0 0.75rem 0 0.75rem;
+    list-style: none;
+    color: white;
+    font-size: 1rem;
+}
+.listitem li a{
+    color: white;
+    padding: 0 0.2rem;
+    text-decoration: none;
+}
+
+.home{
+    height: 100vh;
+    background-image: url(./img/lad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+.item-align{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30vh 10% 0 10%;
+    gap: 2rem;
+}
+.s1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.s2{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.s3{
+    font-size: 1.1rem;
+    letter-spacing: normal;
+}
+
+.music{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 4rem 10% 0 10%;
+    background-color: #252529;
+}
+.content-div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.content-div span{
+    color: white;
+}
+.m1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+.m1 i{
+    padding-right: 0.3rem;
+}
+.m2{
+    font-size: 1.8rem;
+}
+.content-div p{
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.content-div button{
+    padding: 1rem;
+    background-color: rgb(163, 3, 3);
+    font-weight: 100;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.content-div div{
+    padding-bottom: 1.5rem;
+}
+.content-div button:hover{
+    background-color: rgb(255, 0, 0);
+}
+.image-div{
+    margin-top: 0.8rem; 
+    margin-bottom: 1.5rem;
+}
+.image-div img{
+    width: 100%;
+}
+.movie-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 10% 3rem 10%;
+    gap: 1rem;
+}
+.movie-section span{
+    font-size: 1.8rem; 
+}
+.movie-section p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.movie-section button{
+    color: white;
+    background-color: rgb(57, 2, 108);
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.movie-section button:hover{
+    background-color: rgb(115, 0, 223);
+}
+.movie-image img{
+    width: 100%;
+}
+.world{
+    background-image: url(./img/skywithstar.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+.world-entertainment{
+    padding: 5rem 10% 3rem 10%;
+    color: white;
+    text-align: center;
+}
+.world-entertainment span{
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    padding-bottom: 10px;
+}
+.world-entertainment p{
+    font-size: 1.1rem;
+    padding-top: 2rem;
+    padding-bottom: 32px;
+}
+
+.gift-cards{
+    background-color: #F4F4F4;
+    padding: 3rem 10% 3rem 10%;
+    display: flex;
+    flex-direction: row;
+}
+.gift-left img{
+    height: 100%;
+    width: 100%;
+    
+}
+.gift-left{
+    padding: 10px;
+    flex: 50%;
+}
+.gift-right{
+    padding: 10px;
+    flex: 50%;
+}
+
+@media (max-width: 800px) {
+    .gift-cards {
+      flex-direction: column;
+    }
+  }
+
+  .gift-right p{
+    font-size: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    font-weight: lighter;
+  }
+  .gift-right span{
+    margin-top: 1.5rem;
+  }
+ .gift-right hr{
+    margin-top: 1rem;
+ }
+ .gift-right a{
+    text-decoration: none;
+    color: seagreen;
+    font-size: 1rem;
+ }
+ .gift-right a>i{
+    font-size: 1rem;
+    color: black;
+ }
+ footer-item{
+    background-color: #252529;
+ }
+ .footer-menu{
+    padding: 3rem 10% 3rem 10%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2rem;
+    background-color: #252529;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+
+ }
+ .footer-menu div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+ }
+ .footer-menu div a{
+    color: white;
+    font-weight: lighter;
+ }
+ .footer-menu div hr{
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+ }
+
+ .copyright-area{
+    background-color: #333333;
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    color: white;
+ }
+ /* For footer */
+ @media (max-width: 800px) {
+    .footer-item {
+      display: none;
+    }
+  }
+
+  /* for navbar */
+  @media (max-width: 800px) {
+    .listitem li{
+      display: none;
+    }
+    .header>i{
+        display: block;
+    }
+  }
